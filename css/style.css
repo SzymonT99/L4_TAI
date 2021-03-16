@@ -1,10 +1,21 @@
 body {
+    margin: 0px;
     width: 100%;
     font-size: 14px;
 }
 
 .container {
+    margin-top: 30px;
+}
+
+.header {
     margin-top: 50px;
+    margin-left: 400px;
+}
+
+.currentResult {
+    margin-top: 10px;
+    margin-left: 400px;
 }
 
 .list-group-item {
@@ -12,13 +23,61 @@ body {
 }
 
 .correct {
-    background-color: #289a27;
+    background-color: #aacaa4;
+    color: #097925;
+    font-weight: bold;
 }
 
 .incorrect {
-    background-color: #c41a21;
+    background-color: #e0c5c9;
+    color: #c21a2e;
+    font-weight: bold;
 }
 
 .buttons {
     padding: 10px 10px 10px 0;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+#myProgressBar {
+    height: 24px;
+}
+
+#stateAnswers {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+}
+
+.answer {
+    flex: 1;
+    background-color: #5A5865;
+    border-width: 1px;
+    border-color: #413E44;
+    margin-left: 1px;
+    height: 24px;
+}
+
+.results {
+    margin-top: 140px;
+}
+
+.restart, .report {
+    float: left;
+    width: 49%;
+    padding: 10px;
+    height: 70px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnText {
+    font-size: 42px;
 }
